@@ -1,6 +1,8 @@
 ## Getting Started
 
-First, run the development server:
+First, clone the solution to your local machine.
+
+Second , run the development server:
 
 ```bash
 npm run dev

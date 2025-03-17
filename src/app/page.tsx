@@ -20,7 +20,7 @@ const chartSetting = {
 	},
 };
 
-export default function Home(data: []) {
+export default function Home() {
 	const [chartData, setChartData] = useState([]);
 	const [isLoading, setIsLoading] = useState(false);
 	useEffect(() => {

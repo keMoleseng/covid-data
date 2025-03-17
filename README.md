@@ -1,7 +1,3 @@
-Here's a refined version of your README with clearer structure and wording, including the information about hosting your solution:
-
----
-
 # COVID Data Visualization
 
 This project uses the Next.js framework and is bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).

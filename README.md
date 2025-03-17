@@ -1,14 +1,20 @@
+Here's a refined version of your README with clearer structure and wording, including the information about hosting your solution:
+
+---
+
+# COVID Data Visualization
+
 This project uses the Next.js framework and is bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-First, run an the npm install command to install all the necessary dependencies:
+First, install the necessary dependencies:
 
 ```bash
 npm install
 ```
 
-Second, run the development server:
+Then, start the development server:
 
 ```bash
 npm run dev
@@ -20,15 +26,23 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
-## More Information
+## Overview
 
-The solution displays data related to the Covid-19 pandemic. The MUI x-chart library was used to render the information in a graph.
+This project visualizes COVID data using bar charts with a legend to identify the data points.
 
-To learn more about Next.js, take a look at the following resources:
+### Technologies Used
 
--   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   **Next.js** – for building the web application
+-   **MUI X - Charts** – for rendering the bar graphs
+-   **Fetch API** – for retrieving the JSON dataset
+-   **React Hooks (useState & useEffect)** – for managing state and handling data fetching
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Approach
+
+1. **Fetching Data** – The data is retrieved using the Fetch API. To improve user experience, a loading screen is displayed while the data is being processed.
+2. **Data Processing** – Since some values in the dataset were strings, I used the `.map()` method to convert them into numbers to ensure compatibility with the MUI Charts library.
+3. **Deployment for Accessibility** – To prevent issues with running the solution, I have deployed the app on a live domain, making it easier to review. You can access it here: [Deployed App Link](_insert_link_here_).
+
+Let me know if you want any further tweaks! 🚀

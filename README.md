@@ -43,6 +43,6 @@ This project visualizes COVID data using bar charts with a legend to identify th
 
 1. **Fetching Data** – The data is retrieved using the Fetch API. To improve user experience, a loading screen is displayed while the data is being processed.
 2. **Data Processing** – Since some values in the dataset were strings, I used the `.map()` method to convert them into numbers to ensure compatibility with the MUI Charts library.
-3. **Deployment for Accessibility** – To prevent issues with running the solution, I have deployed the app on a live domain, making it easier to review. You can access it here: [Deployed App Link](_insert_link_here_).
+3. **Deployment for Accessibility** – To prevent issues with running the solution, I have deployed the app on a live domain, making it easier to review. You can access it here: [Deployed App Link](https://covid-data-git-env-final-kemolesengs-projects.vercel.app/).
 
 Let me know if you want any further tweaks! 🚀

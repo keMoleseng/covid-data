@@ -47,7 +47,7 @@ export default function Home() {
 				) : (
 					<BarChart
 						margin={{ top: 90 }}
-						dataset={chartData.map((cd) => {
+						dataset={chartData.map((cd: any) => {
 							return {
 								Date: cd["Date"],
 								"Total Confirmed Cases":

@@ -11,8 +11,9 @@ const chartSetting = {
 			label: "Number of People Affected",
 		},
 	],
-	width: 1000,
+	width: 950,
 	height: 420,
+
 	sx: {
 		[`.${axisClasses.left} .${axisClasses.label}`]: {
 			transform: "translate(-20px, 0)",
@@ -40,8 +41,8 @@ export default function Home() {
 
 	return (
 		<div className={styles.page}>
+			<h1>Number of Covid Cases over March to June, 2020.</h1>
 			<main className={styles.main}>
-				<h1>Number of Covid Cases over a few months</h1>
 				{isLoading ? (
 					<div>Loading...</div>
 				) : (

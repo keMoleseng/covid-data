@@ -11,7 +11,7 @@ const chartSetting = {
 			label: "Number of People Affected",
 		},
 	],
-	width: 950,
+	width: 1000,
 	height: 420,
 	sx: {
 		[`.${axisClasses.left} .${axisClasses.label}`]: {

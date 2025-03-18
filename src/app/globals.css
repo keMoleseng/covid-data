@@ -40,6 +40,10 @@ main {
 	display: -webkit-box;
 	align-items: center;
 }
+
+.bar-graph_container {
+	overflow: visible !important;
+}
 /* 
 @media (prefers-color-scheme: dark) {
 	html {

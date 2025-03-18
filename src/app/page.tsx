@@ -47,6 +47,7 @@ export default function Home() {
 					<div>Loading...</div>
 				) : (
 					<BarChart
+						className="bar-graph_container"
 						margin={{ top: 90 }}
 						dataset={chartData.map((cd: any) => {
 							return {
